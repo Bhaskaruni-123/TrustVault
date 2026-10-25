@@ -80,28 +80,6 @@ The tests cover authentication, role restrictions, document access, sharing, rev
 - **Viewer:** Can view documents only when explicitly granted permission.
 
 Permissions are checked on the server, not just in the interface.
-## Demo Access for Evaluators
-
-**Live Website:** https://trustvault-3fcd.onrender.com
-
-### Demo Login Credentials
-
-| Role | Email | Password |
-|---|---|---|
-| Administrator | admin@trustvault.com | Admin@123 |
-| Document Owner | owner@trustvault.com | Owner@123 |
-| Viewer | viewer@trustvault.com | Viewer@123 |
-
-### How to Test
-
-1. Log in as Administrator to review audit logs.
-2. Log in as Document Owner to upload a test document.
-3. Share the document with the Viewer.
-4. Log in as Viewer to open the shared document.
-5. Revoke the Viewer's access as Owner.
-6. Log in as Viewer again to verify access is denied.
-
-Use only test documents and non-sensitive information.
 
 ## Security Notes
 
